@@ -1,0 +1,25 @@
+/*Global Styles */
+* {
+    box-sizing: border-box;
+    /*border: 1px solid red;*/
+  }
+body {
+  margin: 0;
+}
+/*Container*/
+.container{
+  max-width:80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap:  wrap;
+}
+
+img {
+  padding:25px;
+  flex-grow: 1;
+}
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
