@@ -6,42 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Photo Gallery Search</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/fresco.css">
 </head>
 <body>
     <div class="container">
-        <img class="gallery-item" src="photos/thumbnails/01.jpg" alt="Hay Bales image"/>        
-        <img src="photos/thumbnails/02.jpg" alt="Lake image"/> 
-        <img src="photos/thumbnails/03.jpg" alt="Canyon image"/>   
-        <img src="photos/thumbnails/04.jpg" alt="Iceberg image"/>    
-        <img src="photos/thumbnails/05.jpg" alt="Desert image"/>    
-        <img src="photos/thumbnails/06.jpg" alt="Fall image"/>  
-        <img src="photos/thumbnails/07.jpg" alt="Plantation image"/>    
-        <img src="photos/thumbnails/08.jpg" alt="Dunes image"/>  
-        <img src="photos/thumbnails/09.jpg" alt="Countryside Lane image"/>   
-        <img src="photos/thumbnails/10.jpg" alt="Sunset image"/>   
-        <img src="photos/thumbnails/11.jpg" alt="Cave image"/>    
-        <img src="photos/thumbnails/12.jpg" alt="Bluebells image"/>
+        <a href="photos/01.jpg" class="fresco fr-window-skin-fresco" data-fresco-caption="Caption below the image"><img src="photos/thumbnails/01.jpg"  alt="Hay Bales image"/></a>        
+        <a href="photos/02.jpg" class="fresco" data-fresco-caption="Caption below the image" data-fresco-options="ui: 'inside'"><img src="photos/thumbnails/02.jpg" alt="Lake image"/></a> 
+        <a href="photos/03.jpg"><img src="photos/thumbnails/03.jpg" alt="Canyon image"/></a>   
+        <a href="photos/04.jpg"><img src="photos/thumbnails/04.jpg" alt="Iceberg image"/></a>    
+        <a href="photos/05.jpg"><img src="photos/thumbnails/05.jpg" alt="Desert image"/></a>    
+        <a href="photos/06.jpg"><img src="photos/thumbnails/06.jpg" alt="Fall image"/></a>  
+        <a href="photos/07.jpg"><img src="photos/thumbnails/07.jpg" alt="Plantation image"/></a>    
+        <a href="photos/08.jpg"><img src="photos/thumbnails/08.jpg" alt="Dunes image"/></a>  
+        <a href="photos/09.jpg"><img src="photos/thumbnails/09.jpg" alt="Countryside Lane image"/></a>   
+        <a href="photos/10.jpg"><img src="photos/thumbnails/10.jpg" alt="Sunset image"/></a>   
+        <a href="photos/11.jpg"><img src="photos/thumbnails/11.jpg" alt="Cave image"/></a>    
+        <a href="photos/12.jpg"><img src="photos/thumbnails/12.jpg" alt="Bluebells image"/></a>
     </div>  
-    <script src="js/jquery-1.11.2.min.js"></script> 
-    <script src="js/MagnificLightBox/jquery.magnific-popup.min.js"></script> 
-    <script>
-        $('.gallery-item').magnificPopup({
-  type: 'image',
-  gallery: {
-    enabled: false, // set to true to enable gallery
-  
-    preload: [0,2], // read about this option in next Lazy-loading section
-  
-    navigateByImgClick: true,
-  
-    arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>', // markup of an arrow button
-  
-    tPrev: 'Previous (Left arrow key)', // title for left button
-    tNext: 'Next (Right arrow key)', // title for right button
-    tCounter: '<span class="mfp-counter">%curr% of %total%</span>' // markup of counter
-  }
-});
-    </script>
+    <script src="js/jquery-3.3.1.min.js"></script> 
+    <script src="js/Fresco/fresco.js"></script> 
+    
 </body>
 </html>

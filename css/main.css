@@ -15,7 +15,8 @@ body {
 }
 
 img {
-  padding:25px;
+  padding: 0px;
+  margin: 20px;
   flex-grow: 1;
 }
 .clearfix::after {
