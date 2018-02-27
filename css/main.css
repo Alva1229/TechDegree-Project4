@@ -13,12 +13,36 @@ body {
   display: flex;
   flex-wrap:  wrap;
 }
-
-img {
-  padding: 0px;
+.gallery {
+  margin: 0 auto;
+  padding:0;
+}
+#gallery li{
+  display: inline-block;
+  list-style-type: none;
   margin: 20px;
+}
+img {
   flex-grow: 1;
 }
+
+#mySearch {
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16pt;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-bottom: 12px;
+}
+
+.search-bar-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
 .clearfix::after {
   content: " ";
   display: table;
